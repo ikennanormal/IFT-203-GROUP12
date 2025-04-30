@@ -1,0 +1,257 @@
+/* Import Poppins font */
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/000/544/063/non_2x/blue-technology-circle-and-computer-abstract-background-with-blue-and-binary-code-matrix-business-and-connection-futuristic-and-industry-4-0-concept-internet-cyber-and-network-theme-hud-interface-vector.jpg"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed; /* Optional: makes the background stay in place while scrolling */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255,255,255,0.8); /* Semi-transparent white */
+            z-index: -1;
+          }
+          
+    }
+      
+
+
+/* Navigation bar styles */
+nav {
+    background-color: #ffffff; /* White background */
+    padding: 15px 30px;
+    
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0d1b2a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0077b6; /* Slightly brighter blue when hovering */
+}
+
+/* Home section styles */
+.home-content {
+    text-align: center;
+    margin-top: 100px;
+    color:white
+}
+
+.home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: White;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #02488a;
+}
+.about-content {
+    padding: 50px;
+    text-align: center;
+    color:white
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+    color:white
+}
+
+.about-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color:white
+}
+
+/* for styling my photo */
+.about-photo img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h2 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: white;
+    background-color: #0077b6;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.project-card a:hover {
+    background-color: #023e8a;
+}
+.contact-content {
+    padding: 50px;
+    text-align: center;
+    color:white
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #023e8a;
+}
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 0.8s forwards;
+    }
+    
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+
+            .extra-contact {
+                margin-top: 30px;
+                color: white !important;  
+                font-size: 1.1rem;
+              }
+              
+              .extra-contact ul {
+                list-style-type: none;
+                padding: 0;
+              }
+              
+              .extra-contact li {
+                margin-bottom: 8px;
+              }
+              
+              .extra-contact a {
+                color: white !important;  /* Make any links white too */
+              }
+              .site-footer {
+                background-color: #003B73;  /* or any color you want */
+                color: white;
+                text-align: center;
+                padding: 15px 0;
+                margin-top: 40px;
+                font-size: 0.9rem;
+              }
+              
+        }
+        
+    }
+    footer {
+        color: white;
+      }
+      
+      .contact-section h2 {
+        color: white;
+      }
+      .portfolio-content h1 {
+        color: white;
+      }
+      
+            
